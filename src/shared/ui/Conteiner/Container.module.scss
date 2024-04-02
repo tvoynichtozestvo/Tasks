@@ -1,0 +1,7 @@
+.root {
+  display: flex;
+  justify-content: center;
+  &__wrapper {
+    width: 1440px;
+  }
+}

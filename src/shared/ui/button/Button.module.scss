@@ -1,0 +1,47 @@
+@use '_variables.scss';
+
+.root {
+  cursor: pointer;
+  outline:none;
+
+  &_type {
+    &_primary {
+      border-radius: 10px;
+      background-color: variables.$basic-100;
+      &:hover {
+        background-color: variables.$basic-200;
+      }
+
+    }
+    &_secondary {
+      border-radius: 20px;
+      background-color: variables.$basic-100;
+      &:hover {
+        background-color: variables.$basic-200;
+      }
+    }
+
+    &_black {
+      border-radius: 10px;
+      background-color: variables.$basic-300;
+      &:hover {
+
+      }
+    }
+
+  }
+
+  &_buttonSize {
+    &_default {
+
+    }
+
+    &_small {
+
+    }
+
+    &_mwdium {
+
+    }
+  }
+}
