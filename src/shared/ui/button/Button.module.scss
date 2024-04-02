@@ -1,12 +1,16 @@
-@use 'variables.scss';
+@use '/src/app/styles/variables';
+
 
 .root {
   cursor: pointer;
   outline:none;
-
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   &_type {
     &_primary {
-      border-radius: 10px;
+      color: white;
       background-color: variables.$basic-100;
       &:hover {
         background-color: variables.$basic-200;
@@ -14,34 +18,53 @@
 
     }
     &_secondary {
+      background-color: variables.$basic-400;
+      color: rgba(255, 255, 255, 0.5);
+      &:hover {
+        background-color: variables.$basic-500;
+      }
+    }
+
+  }
+
+  &_buttonSize{
+    &_default{
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+    }
+
+    &_small{
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-top: 1px;
+      padding-bottom: 1px;
+
+    }
+    &_medium{
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
+
+    &_large{
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+    }
+  }
+
+  &_borderType{
+    &_default{
+      border-radius: 6px;
+    }
+    &_strong{
       border-radius: 20px;
-      background-color: variables.$basic-100;
-      &:hover {
-        background-color: variables.$basic-200;
-      }
-    }
-
-    &_black {
-      border-radius: 10px;
-      background-color: variables.$basic-300;
-      &:hover {
-
-      }
-    }
-
-  }
-
-  &_buttonSize {
-    &_default {
-
-    }
-
-    &_small {
-
-    }
-
-    &_mwdium {
-
     }
   }
+
+
 }

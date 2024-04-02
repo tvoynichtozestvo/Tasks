@@ -1,10 +1,11 @@
+import {Button} from "./shared/ui/button/Button.tsx";
 
 function App() {
 
   return (
-    <>
-      мяу
-    </>
+    <div style={{background: '#1E1E1E'}}>
+      <Button type={'primary'} buttonSize={'large'} borderType={'strong'}>Login</Button>
+    </div>
   )
 }
 

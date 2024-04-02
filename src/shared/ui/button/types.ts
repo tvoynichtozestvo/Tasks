@@ -7,21 +7,25 @@ export type Props = Omit<
     'type'
 > & {
     type: `${ButtonType}`
-    buttonSize: `${ButtonSize}`
-    children: ReactNode
+    buttonSize?: `${ButtonSize}`
+    borderType?: `${BorderTypes}`
+    children?: ReactNode
     htmlType?: 'button' | 'submit'
-
-
 }
 
 enum ButtonType {
     Primary = 'primary',
     Secondary = 'secondary',
-    Black = 'black'
 }
 
 enum ButtonSize {
     default = 'default',
     small = 'small',
     medium = 'medium',
+    large = 'large',
+}
+
+enum BorderTypes {
+    default = 'default',
+    strong = 'strong',
 }
