@@ -40,11 +40,11 @@
 
   }
   &_block{
+    width: 90%;
     position: absolute;
     display: flex;
     justify-content: center;
     background: rgba(105, 100, 226, 0.01);
-    width: 80rem;
     height: 500px;
     z-index: 0;
   }
