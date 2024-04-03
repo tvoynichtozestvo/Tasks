@@ -28,6 +28,7 @@
     text-align: center;
     width: 420px;
     line-height: 1.2;
+    z-index: 1;
 
     p{
       margin-top: 40px;
@@ -45,6 +46,13 @@
     background: rgba(105, 100, 226, 0.06);
     width: 80rem;
     height: 500px;
+    z-index: 0;
   }
 
+  @media screen and (max-width: 1440px) {
+    &_block {
+      width: 90%;
+      left: 5%;
+    }
+  }
 }
