@@ -1,0 +1,38 @@
+@use '/src/app/styles/variables';
+.root{
+  background: variables.$basic-500;
+  &_wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  &_image {
+    img{
+      width: 400px;
+      height: 550px;
+    }
+  }
+  &_info{
+    font-size: 25px;
+    color: #6964E2;
+    text-align: center;
+    width: 380px;
+    margin-top: 16%;
+    line-height: 1.2;
+    p{
+      color: white;
+    }
+    button{
+      margin-left: 35%;
+      font-size: 20px;
+    }
+  }
+  &_block{
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    background: rgba(105, 100, 226, 0.04);
+    width: 73%;
+    height: 300px;
+  }
+}
