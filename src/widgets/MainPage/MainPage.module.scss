@@ -3,6 +3,7 @@
   background: variables.$basic-500;
   height: 60rem;
   padding-right: 200px;
+
   &_wrapper{
     display: flex;
     justify-content: center;
@@ -26,7 +27,7 @@
     font-size: 40px;
     color: #6964E2;
     text-align: center;
-    width: 420px;
+    width: 520px;
     line-height: 1.2;
     z-index: 1;
 
@@ -50,9 +51,14 @@
   }
 
   @media screen and (max-width: 1650px) {
+    &_wrapper{
+    margin-top: -100px;
+    }
     &_block {
-      width: 90%;
-      left: 5%;
+      width: 75%;
+      height: 420px;
+      left: 8%;
+      top: 29%;
     }
     &_image {
       img{
