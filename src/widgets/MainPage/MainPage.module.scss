@@ -39,15 +39,15 @@
 
 
   }
-  /* &_block{
+  &_block{
     position: absolute;
-    left: 15%;
-    top: 30%;
+    display: flex;
+    justify-content: center;
     background: rgba(105, 100, 226, 0.01);
     width: 80rem;
     height: 500px;
     z-index: 0;
-  } */
+  }
 
 
 }
