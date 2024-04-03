@@ -6,10 +6,15 @@
 
   &__wrapper {
     margin-top: 15px ;
-
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  @media screen and (max-width: 1440px) {
+    &__wrapper {
+      padding-left: 6%;
+      padding-right: 6%;
+    }
   }
 }
