@@ -1,0 +1,43 @@
+@use '/src/app/styles/variables';
+
+.root {
+  border-radius: 15px;
+
+  &_type {
+
+    &_primary {
+      opacity: 20%;
+      border: none;
+      background-color: variables.$basic-450;
+
+      &::placeholder {
+        color: white;        /* Цвет текста placeholder */
+        font-size: 1.2em;     /* Размер шрифта placeholder */
+        padding-left: 7px;    /* Отступ слева для placeholder */
+      }
+    }
+
+    &_secondary {
+      opacity: 100%;
+      border: 1px solid variables.$basic-50;
+    }
+  }
+
+  &_inputSize {
+
+    &_default{
+      width: 300px;
+      height: 30px;
+    }
+
+    &_small{
+      width: 200px;
+      height: 20px;
+
+    }
+    &_medium{
+      width: 620px;
+      height: 30px;
+    }
+  }
+}
