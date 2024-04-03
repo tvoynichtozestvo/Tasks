@@ -49,10 +49,16 @@
     z-index: 0;
   }
 
-  @media screen and (max-width: 1440px) {
+  @media screen and (max-width: 1650px) {
     &_block {
       width: 90%;
       left: 5%;
+    }
+    &_image {
+      img{
+        width: 550px;
+        height: 800px;
+      }
     }
   }
 }
