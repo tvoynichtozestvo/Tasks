@@ -12,7 +12,9 @@ export default function MainPage(){
             <div className={styles.root_info}>
                     <h1>Tasks -</h1>
                     <p >приложение для ведения заметок и отчета задач а еще мяу мяу мяу</p>
+                <div className={styles.root_button_container}>
                 <Button type={'primary'} buttonSize={'default'}>Start</Button>
+                </div>
             </div>
             <div className={styles.root_block}>
 

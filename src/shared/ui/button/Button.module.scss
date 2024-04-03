@@ -29,10 +29,11 @@
 
   &_buttonSize{
     &_default{
-      padding-left: 40px;
-      padding-right: 40px;
+      padding-left: 55px;
+      padding-right: 55px;
       padding-top: 4px;
       padding-bottom: 4px;
+      font-size: 23px;
     }
 
     &_small{
@@ -43,15 +44,15 @@
 
     }
     &_medium{
-      padding-left: 50px;
-      padding-right: 50px;
+      padding-left: 80px;
+      padding-right: 80px;
       padding-top: 2px;
       padding-bottom: 2px;
     }
 
     &_large{
-      padding-left: 100px;
-      padding-right: 100px;
+      padding-left: 120px;
+      padding-right: 120px;
       padding-top: 3px;
       padding-bottom: 3px;
     }
