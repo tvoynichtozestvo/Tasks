@@ -18,8 +18,13 @@
     }
 
     &_secondary {
-      opacity: 100%;
+
+      color: white;
       border: 1px solid variables.$basic-50;
+      background: rgba(255, 255, 255, 0);
+      &::placeholder{
+
+      }
     }
   }
 

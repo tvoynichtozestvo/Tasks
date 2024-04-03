@@ -1,6 +1,6 @@
 import {Props} from "./types.ts";
 import cn from "classnames";
-import styles from "/TextInput.module.scss";
+import styles from "./TextInput.module.scss";
 
 export const TextInput = ({
     type,
