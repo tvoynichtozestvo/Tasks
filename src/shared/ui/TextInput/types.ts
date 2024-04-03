@@ -1,7 +1,14 @@
+import {ReactNode} from "react";
 
-export type Props = {
+export type Props = Omit<
+    React.HTMLAttributes<HTMLElement> &
+    React.ButtonHTMLAttributes<HTMLElement> &
+    React.AnchorHTMLAttributes<HTMLElement>,
+    'type'
+> & {
     type: `${InputType}`
     inputSize?: `${InputSize}`
+    children?: ReactNode
 }
 
 enum InputType {

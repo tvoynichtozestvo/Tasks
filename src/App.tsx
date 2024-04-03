@@ -1,5 +1,4 @@
 import Header from "./widgets/Header/Header.tsx";
-
 import MainPage from "./widgets/MainPage/MainPage.tsx";
 
 function App() {
@@ -7,7 +6,8 @@ function App() {
   return (
     <div >
     <Header/>
-        <MainPage/>
+       <MainPage></MainPage>
+
     </div>
   )
 }

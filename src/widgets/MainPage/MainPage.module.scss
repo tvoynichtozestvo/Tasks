@@ -1,10 +1,10 @@
 @use '/src/app/styles/variables';
 .root{
   background: variables.$basic-500;
-  height: 60rem;
-  padding-right: 200px;
 
   &_wrapper{
+    width: 80%;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,8 +18,9 @@
 
   &_image {
     img{
-      width: 700px;
-      height: 950px;
+      width: 550px;
+      height: 750px;
+      padding-bottom: 100px;
     }
   }
   &_info{
@@ -27,7 +28,6 @@
     font-size: 40px;
     color: #6964E2;
     text-align: center;
-    width: 520px;
     line-height: 1.2;
     z-index: 1;
 
@@ -40,31 +40,15 @@
 
 
   }
-  &_block{
+  /* &_block{
     position: absolute;
     left: 15%;
     top: 30%;
-    background: rgba(105, 100, 226, 0.06);
+    background: rgba(105, 100, 226, 0.01);
     width: 80rem;
     height: 500px;
     z-index: 0;
-  }
+  } */
 
-  @media screen and (max-width: 1650px) {
-    &_wrapper{
-    margin-top: -100px;
-    }
-    &_block {
-      width: 75%;
-      height: 420px;
-      left: 8%;
-      top: 29%;
-    }
-    &_image {
-      img{
-        width: 550px;
-        height: 800px;
-      }
-    }
-  }
+
 }

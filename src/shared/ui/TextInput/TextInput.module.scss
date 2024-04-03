@@ -18,12 +18,12 @@
     }
 
     &_secondary {
-
-      color: white;
       border: 1px solid variables.$basic-50;
       background: rgba(255, 255, 255, 0);
       &::placeholder{
-
+        color: white;        /* Цвет текста placeholder */
+        font-size: 1.2em;     /* Размер шрифта placeholder */
+        padding-left: 7px;
       }
     }
   }
@@ -36,8 +36,8 @@
     }
 
     &_small{
-      width: 200px;
-      height: 20px;
+      width: 250px;
+      height: 25px;
 
     }
     &_medium{
