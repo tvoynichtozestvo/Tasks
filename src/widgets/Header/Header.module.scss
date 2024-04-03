@@ -1,0 +1,16 @@
+@use '/src/app/styles/variables';
+
+.root{
+  background-color: variables.$basic-500;
+  color: variables.$h5TextColor;
+
+  &__wrapper {
+    margin-top: 15px ;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

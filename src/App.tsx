@@ -1,10 +1,14 @@
-import {Button} from "./shared/ui/button/Button.tsx";
+import Header from "./widgets/Header/Header.tsx";
 
 function App() {
 
   return (
-    <div style={{background: '#1E1E1E'}}>
-      <Button type={'primary'} buttonSize={'large'} borderType={'strong'}>Login</Button>
+    <div >
+    <Header/>
+        <div style={{background: '#1E1E1E', height: '600px'}}>
+
+        </div>
+
     </div>
   )
 }
