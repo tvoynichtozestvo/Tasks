@@ -3,10 +3,12 @@
   background: variables.$basic-500;
 
   &_wrapper{
+    padding-top: 50px;
     width: 80%;
+    height: 650px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
   }
 
   &_button_container{
@@ -15,20 +17,18 @@
     align-items: center;
   }
 
-  &_image {
-    img{
-      width: 550px;
-      height: 750px;
-      padding-bottom: 100px;
-    }
-  }
   &_info{
+    width: 80%;
     font-family: Calibri;
-    font-size: 40px;
+    font-size: 70px;
     color: #6964E2;
     text-align: center;
     line-height: 1.2;
-    z-index: 1;
+
+    h1{
+      width: 70%;
+      font-size: 70px;
+    }
 
     p{
       margin-top: 40px;
@@ -38,15 +38,6 @@
     }
 
 
-  }
-  &_block{
-    width: 90%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    background: rgba(105, 100, 226, 0.01);
-    height: 500px;
-    z-index: 0;
   }
 
 
