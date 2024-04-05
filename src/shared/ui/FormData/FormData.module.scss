@@ -1,0 +1,28 @@
+.root {
+  text-align: center;
+  justify-content: center;
+  color: white;
+
+  h2 {
+    margin-top: 20px;
+    font-size: 35px;
+  }
+
+  input {
+    margin-top: 35px;
+  }
+  button {
+    margin-top: 35px;
+    font-size: 25px;
+  }
+
+  p {
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.42);
+  }
+}
+
+.fields {
+  display: grid;
+}

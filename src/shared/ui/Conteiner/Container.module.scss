@@ -1,7 +1,9 @@
+@use '/src/app/styles/variables';
+
 .root {
   display: flex;
   justify-content: center;
   &__wrapper {
-    width: 1640px;
+    width: 100%;
   }
 }

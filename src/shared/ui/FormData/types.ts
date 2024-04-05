@@ -1,9 +1,11 @@
-export type Props = Omit<
-    React.HTMLAttributes<HTMLElement> &
-    React.ButtonHTMLAttributes<HTMLElement> &
-    React.AnchorHTMLAttributes<HTMLElement>,
-    'type'
-> & {
+
+export interface Props {
+    title: string
+    inputFields: InputField[]
+    onSubmit?: (event: React.FormEvent<HTMLFormElement>) => void
+}
+
+export interface InputField {
     type: `${InputType}`
     inputSize?: `${InputSize}`
     id?: string;

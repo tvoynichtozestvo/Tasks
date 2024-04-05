@@ -11,9 +11,18 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+
+    button{
+      margin-left: 20px;
+    }
+  }
   @media screen and (max-width: 1650px) {
     &__wrapper {
-      padding: 40px 40px ;
+      padding: 40px 40px;
       padding-top: 0;
 
     }
