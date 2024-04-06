@@ -1,6 +1,11 @@
 @use '/src/app/styles/variables';
 
+html {
+  background-color: variables.$basic-500;
+}
 .root {
   background-color: variables.$basic-500;
-  height: 700px;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }

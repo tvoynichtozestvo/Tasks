@@ -12,8 +12,8 @@ export default function Form(){
                 title={"Login"}
 
                 inputFields={[
-                    { id: 'username', placeholder: 'Имя пользователя', type: 'primary', inputSize:'medium' },
-                    { id: 'password', placeholder: 'Пароль', type: 'primary', inputSize: 'medium' }
+                    { id: 'username', placeholder: 'Login', type: 'primary', inputSize:'medium' },
+                    { id: 'password', placeholder: 'Password', type: 'primary', inputSize: 'medium' }
             ]}>
             </AuthForm>
         </ContainerToForm>
