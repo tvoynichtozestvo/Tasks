@@ -1,5 +1,5 @@
 import styles from './MainPageImg.module.scss'
-import image from '../../app/assets/image/imghome (2).png'
+import image from '../../app/assets/image/imghome.png'
 import Container from "../../shared/ui/Conteiner/Container.tsx";
 import {Button} from "../../shared/ui/button/Button.tsx";
 
