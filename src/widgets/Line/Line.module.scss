@@ -5,7 +5,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(105, 100, 226, 0.06);
+    background: rgb(105,100,226);
+    background: linear-gradient(90deg, rgba(105,100,226,0.01) 0%, rgba(105,100,226,0.35477941176470584) 75%, rgba(153,150,226,0.2) 100%);
     height: 1px;
     width: 100%;
     padding-bottom: 150px;
