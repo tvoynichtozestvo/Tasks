@@ -14,6 +14,15 @@
     align-items: center;
   }
 
+  a {
+    font-size: 40px;
+    color: variables.$h5TextColor;
+    text-decoration: none;
+
+
+  }
+
+
   &__nav {
     display: flex;
     align-items: center;

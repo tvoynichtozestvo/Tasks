@@ -1,6 +1,13 @@
 @use '/src/app/styles/variables';
 
+html {
+  background-color: variables.$basic-500;
+}
+
 .root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   &__wrapper {

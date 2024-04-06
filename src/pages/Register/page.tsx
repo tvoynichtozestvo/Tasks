@@ -1,7 +1,7 @@
 import Form from "../../widgets/Form/Form.tsx";
 
 
-export default function Login(){
+export default function Register(){
     return(
         <Form></Form>
     )

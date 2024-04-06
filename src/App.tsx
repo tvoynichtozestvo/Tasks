@@ -1,13 +1,17 @@
 import Header from "./widgets/Header/Header.tsx";
-import Form from "./widgets/Form/Form.tsx";
+import {QueryClientProvider} from "./app/providers";
+import {BrowserRouter} from "react-router-dom";
+import {AppRouter} from "./app/router/AppRouter.tsx";
 
 function App() {
 
   return (
-    <div >
-    <Header/>
-       <Form></Form>
-    </div>
+    <QueryClientProvider>
+        <BrowserRouter>
+            <Header/>
+            <AppRouter/>
+        </BrowserRouter>
+    </QueryClientProvider>
   )
 }
 

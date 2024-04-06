@@ -1,3 +1,5 @@
+import MainPage from "../../widgets/MainPage/MainPage.tsx";
+
 export default function Home() {
-    return <>Index Page</>
+    return <MainPage></MainPage>
 }
