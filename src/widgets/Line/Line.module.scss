@@ -1,25 +1,22 @@
 @use '/src/app/styles/variables';
-
 .root{
   background: variables.$basic-500;
-  &_wrapper{
+  &__wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
     background: rgba(105, 100, 226, 0.06);
+    height: 1px;
     width: 100%;
-    margin-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 150px;
+    padding-top: 20px;
   }
   &_line{
-    width: 1000px;
-    height: 10px;
-    background: red;
+    background-color: rgba(255, 255, 255, 0.16);
+    height: 1px;
+    width: 95%;
   }
-  img{
-    width: 80%;
-    height: 100%;
-  }
+
 
 
 }

@@ -24,7 +24,7 @@
     p {
       margin-top: 30px;
       color: #818183;
-      font-size: 39px;
+      font-size: 33px;
       line-height: 1.2;
       font-weight: 500;
     }
@@ -35,6 +35,12 @@
       justify-content: center;
     }
   }
+  img{
+    width: 730px;
+    height: 830px;
+  }
+
+
   @media screen and (max-width: 1250px){
     h2{
       margin-top: 30px;
