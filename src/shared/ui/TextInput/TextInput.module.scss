@@ -6,13 +6,16 @@
   &_type {
 
     &_primary {
-      opacity: 20%;
+
       border: none;
       background-color: variables.$basic-450;
+      font-size: 1.5em;
+      color: rgba(255, 255, 255, 0.67);
+      padding-left: 20px;
 
       &::placeholder {
+        opacity: 20%;
         color: white;        /* Цвет текста placeholder */
-        font-size: 1.2em;     /* Размер шрифта placeholder */
         padding-left: 7px;    /* Отступ слева для placeholder */
       }
     }
@@ -40,8 +43,8 @@
 
     }
     &_medium{
-      width: 50vh;
-      height: 47px;
+      width: 29vw;
+      height: 5vh;
     }
   }
 }
