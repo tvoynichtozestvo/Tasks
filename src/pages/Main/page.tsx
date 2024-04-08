@@ -1,7 +1,7 @@
 import MainPage from "../../widgets/MainPage/MainPage.tsx";
 import Mainpageimg from "../../widgets/MainpageImg/Mainpageimg.tsx";
 import Mainpageimgsecond from "../../widgets/MainpageImgsecond/Mainpageimg.tsx";
-import Line from "../../widgets/Line/Line.tsx";
+import Line from "../../shared/ui/Line/Line.tsx";
 
 export default function Home() {
     return(
