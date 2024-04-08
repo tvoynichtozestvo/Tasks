@@ -14,6 +14,7 @@
       padding-left: 20px;
 
       &::placeholder {
+        font-size: 20px;
         opacity: 20%;
         color: white;        /* Цвет текста placeholder */
         padding-left: 7px;    /* Отступ слева для placeholder */

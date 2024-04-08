@@ -5,6 +5,10 @@
   display: flex;
   justify-content: center;
 
+  ::selection {
+    background: variables.$basic-150; /* Цвет фона */
+  }
+
   &__wrapper {
     margin-top: 100px;
     border-radius: 10px;

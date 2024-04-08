@@ -2,6 +2,9 @@
 
 html {
   background-color: variables.$basic-500;
+  ::selection {
+    background: variables.$basic-150; /* Цвет фона */
+  }
 }
 
 .root {
