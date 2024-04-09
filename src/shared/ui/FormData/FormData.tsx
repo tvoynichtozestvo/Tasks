@@ -3,7 +3,6 @@ import styles from './FormData.module.scss'
 import { Props } from './types.ts'
 import {TextInput} from "../TextInput/TextInput.tsx";
 import {Button} from "../button/Button.tsx";
-import {Link} from "react-router-dom";
 
 export default function AuthForm(props: Props) {
     const [formData, setFormData] = useState({})
@@ -28,9 +27,7 @@ export default function AuthForm(props: Props) {
                          />
                 ))}
             </div>
-            <Button type={'primary'} borderType={'strong'} buttonSize={'large'}>Login</Button>
-            <Link to={'https://www.youtube.com/watch?v=wv969vgqwDw'}>Forgot password?</Link>
-            <Link to={'/'}>register</Link>
+            <Button type={'primary'} borderType={'strong'} buttonSize={'large'}>{props.button}</Button>
         </form>
     )
 }

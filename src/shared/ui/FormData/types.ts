@@ -1,6 +1,7 @@
 
 export interface Props {
     title: string
+    button: string
     inputFields: InputField[]
     onSubmit?: (event: React.FormEvent<HTMLFormElement>) => void
 }

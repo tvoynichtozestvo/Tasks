@@ -1,8 +1,5 @@
-import Form from "../../widgets/Form/Form.tsx";
-
+import FormRegister from "../../widgets/FormRegister/FormRegister.tsx";
 
 export default function Register(){
-    return(
-        <Form></Form>
-    )
+    return <FormRegister/>
 }

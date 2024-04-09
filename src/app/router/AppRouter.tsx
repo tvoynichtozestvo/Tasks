@@ -25,10 +25,10 @@ export const AppRouter = () => {
                 }
             />
             <Route
-                path='/login'
+                path='/register'
                 element={
                     <Suspense>
-                        <Register></Register>
+                        <Register/>
                     </Suspense>
                 }
             />
