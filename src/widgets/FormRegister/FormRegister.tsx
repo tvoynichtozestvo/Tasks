@@ -18,10 +18,7 @@ export default function FormRegister(){
                 ]}>
             </AuthForm>
             </div>
-            <div>
-                <Link to={'https://www.youtube.com/watch?v=wv969vgqwDw'}>Forgot password?</Link>
-                <Link to={'/login'}>login</Link>
-            </div>
+
 
         </ContainerToForm>
     )

@@ -10,7 +10,7 @@
   }
 
   &__wrapper {
-    margin-top: 100px;
+    margin-top: 80px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -25,10 +25,17 @@
     display: block;
     margin-top: 13px;
     line-height: 1;
-    font-size: 19px;
+    font-size: 16px;
     color: rgba(255, 255, 255, 0.42);
     text-align: center;
 
+    &:hover{
+      text-decoration: underline;
+    }
+
+  }
+  h2{
+    margin-top: 30px;
   }
 
   @media screen and (max-width: 1450px){
