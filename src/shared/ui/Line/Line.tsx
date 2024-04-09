@@ -1,4 +1,4 @@
-import Container from "../../shared/ui/Conteiner/Container.tsx";
+import Container from "../Conteiner/Container.tsx";
 import styles from "./Line.module.scss";
 
 export default function Line(){
