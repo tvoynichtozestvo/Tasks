@@ -1,0 +1,40 @@
+@use '/src/app/styles/variables';
+
+.root{
+  color:white;
+ background-color: variables.$basic-500;
+  &__wrapper{
+
+  }
+  &_content_container{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  &_discription{
+    font-size: 24px;
+    width: 20vw;
+  }
+  a{
+    text-decoration: none;
+    color:white;
+
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+  &_line_wrpper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+
+    &_line{
+      background-color: rgba(255, 255, 255, 0.16);
+      height: 1px;
+      width: 95%;
+    }
+  }
+
+}

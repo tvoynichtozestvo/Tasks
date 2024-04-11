@@ -8,7 +8,7 @@ export default function MainPage(){
             <div className={styles.root_info}>
                 <div className={styles.root_button_container}><h1>Organize your work and life, finally.</h1></div>
 
-                    <p>Become focused, organized, and calm with Todoist. The world's #1 task manager and to-do list app.</p>
+                    <p>Become focused, organized, and calm with Tasks. The world's #1 task manager and to-do list app.</p>
                 <div className={styles.root_button_container}>
                 <Button type={'primary'} buttonSize={'default'}>Start</Button>
                 </div>
