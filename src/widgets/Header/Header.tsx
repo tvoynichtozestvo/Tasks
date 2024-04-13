@@ -12,7 +12,7 @@ export default function Header(){
             <Link to={'/'}>Tasks</Link>
             <div className={styles.root__nav}>
                 <Tabs tabs={[
-                    { id: '1', label: 'Features' },
+                    { id: '1', label: 'Home' },
                     { id: '2', label: 'Tariffs' },
 
                 ]}></Tabs>

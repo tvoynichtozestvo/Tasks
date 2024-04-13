@@ -10,8 +10,11 @@
     display: flex;
     justify-content: space-evenly;
   }
+  &_logo {
+    color: variables.$basic-100;
+  }
   &_discription{
-    font-size: 24px;
+    font-size: 20px;
     width: 20vw;
   }
   a{

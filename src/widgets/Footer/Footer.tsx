@@ -14,7 +14,7 @@ export default function Footer(){
             </div>
             <div className={styles.root_content_container}>
                 <div>
-                    <h1>Tasks</h1>
+                    <h1 className={styles.root_logo}>Tasks</h1>
                     <p className={styles.root_discription}>Join millions of people who organize work and life with Tasks.</p>
                 </div>
                 <div>
