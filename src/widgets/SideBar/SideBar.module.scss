@@ -1,0 +1,100 @@
+@use '/src/app/styles/variables';
+
+.root{
+  background-color: variables.$siedebarbg;
+  width: 13vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+
+  &__wrapper {
+
+
+  }
+  &_sidebarHeader{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    color: variables.$basic-100;
+    i{
+      margin-right: 10px;
+      color: white;
+      font-size: 25px;
+      margin-bottom: -10px;
+    }
+  }
+
+  &_mainElements{
+    padding-bottom: 46vh;
+    padding-top: 10vh;
+  }
+
+  i{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: -12px;
+  }
+
+  &_mainSideBar{
+
+  }
+  &_miniSideBar{
+    display: none;
+
+
+    .root{
+      background-color: variables.$siedebarbg;
+      width: 5vw;
+      height: 100vh;
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: 100;
+
+      &__wrapper {
+
+
+      }
+      &_sidebarHeader{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        padding-top: 5vh;
+        padding-bottom: 3vh;
+
+        color: variables.$basic-100;
+        i{
+          margin-right: 10px;
+          color: white;
+          font-size: 25px;
+          margin-bottom: -10px;
+        }
+      }
+
+      &_mainElements{
+
+        padding-bottom: 46vh;
+        padding-top: 10vh;
+        div{
+          width: 5vw;
+        }
+      }
+
+      i{
+        margin-left: 20px;
+        font-size: 20px;
+        margin-top: -12px;
+      }
+      &_logInfo{
+        div{
+          width: 5vw;
+        }
+      }
+
+
+    }
+  }
+}

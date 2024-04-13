@@ -1,8 +1,6 @@
-
 import styles from "./Footer.module.scss"
 import Container from "../../shared/ui/Conteiner/Container.tsx";
 import {Link} from "react-router-dom";
-import Line from "../../shared/ui/Line/Line.tsx";
 
 
 export default function Footer(){

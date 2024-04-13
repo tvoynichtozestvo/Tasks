@@ -1,0 +1,32 @@
+.root{
+  font-weight: lighter;
+  color: white;
+  width: 13vw;
+  height: 6vh;
+  display: flex;
+
+  &__wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    i{
+      margin-right: 10px;
+    }
+}
+  &_type{
+    &_active{
+      color: #6964E2;
+      background: rgba(217, 217, 217, 0.16);
+      p{
+        color: #6964E2;
+      }
+    }
+
+  }
+
+  &:hover{
+    background: rgba(217, 217, 217, 0.16);
+    cursor: pointer;
+  }
+
+}
