@@ -8,39 +8,46 @@
   left: 0;
   top: 0;
   z-index: 100;
+  font-size: 24px;
 
-  &__wrapper {
-
-
+  h2{
+    font-size: 40px;
   }
+
+  &__wrapper {}
+
+  //заголовок (3 полоски и Tasks)
   &_sidebarHeader{
     display: flex;
     align-items: center;
     cursor: pointer;
-
+    margin-top: 1vh;
     color: variables.$basic-100;
+
     i{
-      margin-right: 10px;
+      margin-right: 0.6vw;
       color: white;
       font-size: 25px;
-      margin-bottom: -10px;
+      margin-bottom: -1vh;
     }
   }
 
+  //Основные элелементы
   &_mainElements{
-    padding-bottom: 46vh;
-    padding-top: 10vh;
+    padding-bottom: 49vh;
+    padding-top: 9vh;
   }
 
+  //общие параметры иконок
   i{
     margin-left: 20px;
-    font-size: 20px;
-    margin-top: -12px;
+    font-size: 25px;
+    margin-top: -1.1vh;
   }
 
-  &_mainSideBar{
+  &_mainSideBar{}
 
-  }
+  // Уменьшеный сайдбар
   &_miniSideBar{
     display: none;
 
@@ -54,47 +61,57 @@
       top: 0;
       z-index: 100;
 
-      &__wrapper {
-
-
+      //для того что бы основные иконки были по центру
+      i{
+        margin-right: 1.4vw;
       }
+
+      &__wrapper {}
+
+      //Заголовок сайдбара (3 полоски)
       &_sidebarHeader{
         display: flex;
         align-items: center;
         cursor: pointer;
         padding-top: 5vh;
         padding-bottom: 3vh;
-
         color: variables.$basic-100;
+
         i{
-          margin-right: 10px;
+          margin-left: 1.6vw;
           color: white;
           font-size: 25px;
-          margin-bottom: -10px;
+
         }
       }
 
+      //Основные элементы
       &_mainElements{
-
         padding-bottom: 46vh;
-        padding-top: 10vh;
+        padding-top: 8vh;
         div{
           width: 5vw;
         }
       }
-
-      i{
-        margin-left: 20px;
-        font-size: 20px;
-        margin-top: -12px;
-      }
+      //логин и инфо которые снизу
       &_logInfo{
         div{
           width: 5vw;
         }
       }
-
-
     }
   }
+
+  @media  screen and (max-width: 1440px) {
+    h2{
+      font-size: 30px;
+    }
+    p{
+      font-size: 20px;
+    }
+    i{
+      font-size: 23px;
+    }
+    }
 }
+
