@@ -7,6 +7,8 @@ export default function SideBar({task="", profile="", notes="", settings="", }){
     function openMini(){
         const mainSide = document.getElementById('main');
         const miniSide = document.getElementById('mini');
+        const switchDisplay = document.getElementById('switchMarginSidebar');
+        switchDisplay.style.marginLeft = '8vw'
         mainSide.style.display = 'none'
         miniSide.style.display = 'block'
 
@@ -14,6 +16,8 @@ export default function SideBar({task="", profile="", notes="", settings="", }){
     function openMain(){
         const mainSide = document.getElementById('main');
         const miniSide = document.getElementById('mini');
+        const switchDisplay = document.getElementById('switchMarginSidebar');
+        switchDisplay.style.marginLeft = '20vw'
         mainSide.style.display = 'block'
         miniSide.style.display = 'none'
 

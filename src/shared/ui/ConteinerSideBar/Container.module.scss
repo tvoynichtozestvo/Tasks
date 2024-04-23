@@ -1,0 +1,18 @@
+@use '/src/app/styles/variables';
+
+html {
+  background-color: variables.$basic-500;
+  ::selection {
+    background: variables.$basic-150; /* Цвет фона */
+  }
+}
+
+.root {
+  display: flex;
+
+  &__wrapper {
+    margin-left: 20vw;
+
+  }
+
+}
