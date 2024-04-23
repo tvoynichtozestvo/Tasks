@@ -5,6 +5,7 @@ export type Props = {
     typeImage: `${TypeImage}`
     active?: `${Active}`
     children?: ReactNode
+    onClick?: () => void
 }
 enum TypeImage{
     task = 'fa fa-check-circle-o fa-2x',
