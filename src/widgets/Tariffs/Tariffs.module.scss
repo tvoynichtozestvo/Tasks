@@ -1,0 +1,14 @@
+@use '/src/app/styles/variables';
+
+.root{
+  background-color: variables.$basic-500;
+  display: flex;
+
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+
+}

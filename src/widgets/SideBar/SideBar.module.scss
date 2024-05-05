@@ -1,8 +1,9 @@
 @use '/src/app/styles/variables';
 
 .root{
+  border-radius: 0;
   background-color: variables.$siedebarbg;
-  width: 13vw;
+  width: 15vw;
   height: 100vh;
   position: fixed;
   left: 0;

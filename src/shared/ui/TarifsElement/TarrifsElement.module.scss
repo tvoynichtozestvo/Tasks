@@ -1,0 +1,36 @@
+.root{
+  padding: 1vh 0.6vw;
+  width: 400px;
+  font-size: 28px;
+  border-radius:10px ;
+  margin-left: 3vw;
+
+
+  &_borderType{
+    &_free{
+      border: #818183 1px solid;
+    }
+    &_premium{
+      border: #6964E2 1px solid;
+    }
+    &_diamond{
+      border: #6964E2 1px solid;
+      box-shadow:0 0 10px #6964E2
+    }
+
+  }
+
+  &_headerText{
+    color: white;
+
+  }
+  &_mainText{
+    color: white;
+    margin-bottom: 20px;
+  }
+  &_buttonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

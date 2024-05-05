@@ -5,6 +5,7 @@ const HomePage = lazy(() => import('../../pages/Main/page.tsx'))
 const Login = lazy(() => import('../../pages/Login/page.tsx'))
 const Register = lazy(() => import('../../pages/Register/page.tsx'))
 const Test = lazy(() => import('../../pages/testSideBar/page.tsx'))
+const Tariffs = lazy(() => import('../../pages/Tariffs/page.tsx'))
 
 export const AppRouter = () => {
     return (
@@ -38,6 +39,14 @@ export const AppRouter = () => {
                 element={
                     <Suspense>
                         <Test/>
+                    </Suspense>
+                }
+            />
+            <Route
+                path='/tariffs'
+                element={
+                    <Suspense>
+                        <Tariffs/>
                     </Suspense>
                 }
             />

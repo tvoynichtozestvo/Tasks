@@ -20,7 +20,7 @@ export default function SideBar({task="", profile="", notes="", settings="", }){
         const mainSide = document.getElementById('main');
         const miniSide = document.getElementById('mini');
         const switchDisplay = document.getElementById('switchMarginSidebar');
-        switchDisplay.style.marginLeft = '20vw'
+        switchDisplay.style.marginLeft = '17vw'
         mainSide.style.display = 'block'
         miniSide.style.display = 'none'
     }
