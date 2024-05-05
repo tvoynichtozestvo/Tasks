@@ -1,0 +1,84 @@
+@use '/src/app/styles/variables';
+.root{
+  background: variables.$basic-500;
+  color: white;
+
+  &__wrapper{
+    margin-left: -10vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    font-size: 20px;
+
+  }
+  &_statContainer{
+    &_stat{
+      border-radius: 10px;
+      display: flex;
+      width: 800px;
+      padding: 30px;
+      background-color: rgba(217, 217, 217, 0.03);
+      line-height: 50px;
+    }
+
+    &_statItems{
+      margin-bottom: 10px;
+      display: flex;
+      font-size: 12px;
+      text-align: center;
+      p{
+        margin-top: 16px;
+      }
+      &_statItemP{
+       width: 35px;
+       height: 35px;
+        border-radius: 7px;
+        background: rgba(217, 217, 217, 0.4);
+        margin-right: 18px;
+      }
+      &_statItemA{
+        width: 35px;
+        height: 35px;
+        border-radius: 7px;
+        background: variables.$basic-100;
+        margin-right: 18px;
+      }
+
+    }
+
+    &_totalTaskContainer{
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      width: 100%;
+    }
+
+    &_totalTask{
+      text-align: center;
+      p{
+        margin-top: 50px;
+      }
+      background: rgba(105, 100, 226, 0.1);
+      width: 150px;
+      height: 150px;
+      border-radius: 100px;
+    }
+
+  }
+
+
+
+  &_infoContainer{
+  width: 400px;
+
+    &_info{
+      padding: 30px;
+      border-radius: 10px;
+      
+      background-color: rgba(217, 217, 217, 0.03);
+    }
+
+  }
+
+}

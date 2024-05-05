@@ -1,0 +1,36 @@
+@use '/src/app/styles/variables';
+.root{
+  background: variables.$basic-500;
+  &__wrapper{
+    display: flex;
+    width: 100%;
+    img{
+      border-radius: 10px;
+      height: 150px;
+      width: 150px;
+    }
+  }
+  &_headerForProfile{
+    padding-top: 2.5vw;
+    margin-left: -3vw;
+    margin-bottom: 5vw;
+    color: white;
+    text-align: center;
+    width: 110%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(217, 217, 217, 0.03);
+    padding-bottom: 1vh;
+    div{
+      margin-top: 2vh;
+    }
+
+
+  }
+  &_buttonPos{
+    display: flex;
+    justify-content: center;
+  }
+
+
+}

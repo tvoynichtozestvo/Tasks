@@ -1,0 +1,10 @@
+@use '/src/app/styles/variables';
+.root{
+  background: variables.$basic-500;
+
+  &__wrapper{
+
+    width: 120%;
+
+  }
+}

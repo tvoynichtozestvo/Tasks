@@ -10,10 +10,11 @@ function Container(props: Props,  ) {
     const notes = props.notes
     const profile = props.profile
     const settings = props.settings
+    const isSidebar = props.isSidebar
 
     return (
         <div className={rootClassNames} >
-            <div><SideBar task={task} notes={notes} settings={settings} profile={profile} /></div>
+            <div style={{display: `${isSidebar}`}}><SideBar task={task} notes={notes} settings={settings} profile={profile} /></div>
             <div className={classNames} id={'switchMarginSidebar'}>{props.children}</div>
         </div>
     )

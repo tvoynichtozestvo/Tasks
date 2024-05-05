@@ -9,6 +9,7 @@ export type Props = {
     notes?: string
     settings?: string
     profile?: string
+    isSidebar?: string
 
 
 }
