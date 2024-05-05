@@ -1,0 +1,11 @@
+.root{
+  margin-top: 10vw;
+  width: 500px;
+  height: 450px;
+  padding: 0;
+  display: flex;
+  justify-content: start;
+  &__wrapper {
+    width: 100%;
+  }
+}
