@@ -13,6 +13,6 @@ export const Button = ({
         [styles[`root_buttonSize_${buttonSize}`]]: buttonSize,
         [styles[`root_borderType_${borderType}`]]: borderType
     })
-    return <button className={classNames}>{props.children}</button>
+    return <button className={classNames} onClick={props.onClick}>{props.children}</button>
 
 }

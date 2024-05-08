@@ -4,6 +4,10 @@ import styles from './/Settings.module.scss'
 
 export default function Settings(){
     const [selectedTab, setSelectedTab] = useState('Profile');
+
+
+
+
     function setProfile(){
         setSelectedTab('Profile')
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -68,7 +72,7 @@ export default function Settings(){
                 <h2>Settings</h2>
             </div>
             <div className={styles.root_navContaier}>
-                <div onClick={setProfile} className={styles.root_navContaier_navItems} id={'profile'}>Profile</div>
+                <div onClick={setProfile} className={styles.root_navContaier_navItems} id={'profile'} style={{color: '#6964E2', textDecoration: 'underline'}}>Profile</div>
                 <div onClick={setTheme} className={styles.root_navContaier_navItems} id={'theme'}>Theme</div>
                 <div onClick={setOther} className={styles.root_navContaier_navItems} id={'other'}>Other</div>
             </div>
@@ -76,7 +80,7 @@ export default function Settings(){
 
 
 
-            <div>
+            <div className={styles.root_mainContainer}>
             {selectedTab === 'Profile' && <div>HTML для Profile</div>}
             {selectedTab === 'Theme' && <div>HTML для Theme</div>}
             {selectedTab === 'Other' && <div>HTML для Other</div>}

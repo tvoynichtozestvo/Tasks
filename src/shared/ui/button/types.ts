@@ -11,6 +11,7 @@ export type Props = Omit<
     borderType?: `${BorderTypes}`
     children?: ReactNode
     htmlType?: 'button' | 'submit'
+    onClick?: () => void
 }
 
 enum ButtonType {

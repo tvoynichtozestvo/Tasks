@@ -3,25 +3,26 @@
   background: variables.$basic-500;
   &__wrapper{
     color: white;
+    margin-top: 2vh;
   }
   &_navContaier{
     color:  white;
     display: flex;
     margin-left: 3vw;
-
     &_navItems{
       margin-right: 1vw;
       cursor: pointer;
       text-decoration: none;
       font-size: 30px;
-
       &:hover{
         text-decoration: underline;
         color: variables.$basic-100;
       }
-
     }
-
+  }
+  &_mainContainer{
+    margin-left: 3vw;
+    margin-top: 3vh;
   }
 
 }
