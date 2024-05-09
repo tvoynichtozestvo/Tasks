@@ -15,4 +15,11 @@ html {
 
   }
 
+  @media screen and (max-width: 940px){
+    &__wrapper{
+      margin-left: 150px;
+    }
+
+  }
+
 }

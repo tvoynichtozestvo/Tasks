@@ -77,13 +77,19 @@ export default function Settings(){
                 <div onClick={setOther} className={styles.root_navContaier_navItems} id={'other'}>Other</div>
             </div>
 
-
-
-
+            
+            {/*Other*/}
             <div className={styles.root_mainContainer}>
             {selectedTab === 'Profile' && <div>HTML для Profile</div>}
             {selectedTab === 'Theme' && <div>HTML для Theme</div>}
-            {selectedTab === 'Other' && <div>HTML для Other</div>}
+            {selectedTab === 'Other' &&
+                <div className={styles.root_other}>
+                    <div><h2>Language</h2></div>
+                    <select>
+                        <option>English</option>
+                        <option>Russia</option>
+                    </select>
+                </div>}
             </div>
 
         </Container>
