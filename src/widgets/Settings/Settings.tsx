@@ -9,10 +9,6 @@ import {TextInput} from "../../shared/ui/TextInput/TextInput.tsx";
 
 export default function Settings(){
     const [selectedTab, setSelectedTab] = useState('Profile');
-
-
-
-
     function setProfile(){
         setSelectedTab('Profile')
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -81,9 +77,6 @@ export default function Settings(){
                 <div onClick={setTheme} className={styles.root_navContaier_navItems} id={'theme'}>Theme</div>
                 <div onClick={setOther} className={styles.root_navContaier_navItems} id={'other'}>Other</div>
             </div>
-
-
-
             <div className={styles.root_mainContainer}>
             {selectedTab === 'Profile' &&
              <div>
