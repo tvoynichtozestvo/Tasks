@@ -38,8 +38,8 @@
     }
 
     &_small{
-      padding-left: 25px;
-      padding-right: 25px;
+      padding-left: 45px;
+      padding-right: 45px;
       padding-top: 1px;
       padding-bottom: 1px;
 
@@ -53,7 +53,12 @@
 
     &_large{
       width: 29vw;
+      max-width: 600px;
+      min-width: 300px;
       height: 5vh;
+      max-height: 50px;
+      min-height: 40px;
+
     }
   }
 

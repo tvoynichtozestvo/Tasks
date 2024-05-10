@@ -1,7 +1,6 @@
 @use '/src/app/styles/variables';
 
 .root {
-  width: 100%;
   display: flex;
   justify-content: center;
 
@@ -17,6 +16,8 @@
     align-items: center;
     flex-wrap: wrap;
     width: 35vw;
+    max-width: 600px;
+    min-width: 300px;
 
     padding-bottom: 4vh;
     background-color: variables.$basic-300;

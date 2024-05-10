@@ -44,7 +44,11 @@
     }
     &_medium{
       width: 29vw;
+      max-width: 600px;
+      min-width: 300px;
       height: 5vh;
+      max-height: 50px;
+      min-height: 40px;
     }
   }
 }

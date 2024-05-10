@@ -36,6 +36,10 @@ export default function SideBar({task="", profile="", notes="", settings="", }){
     function navigateToSettings(){
         navigate('/settings')
     }
+    function Logout(){
+        navigate('/')
+
+    }
     return(
         <>
         <div className={styles.root_mainSideBar} id={'main'}>
@@ -55,7 +59,7 @@ export default function SideBar({task="", profile="", notes="", settings="", }){
                     </div>
 
                     <div>
-                    <SideBarElement typeImage={'fa fa-power-off fa-2x'} >Logout</SideBarElement>
+                    <SideBarElement typeImage={'fa fa-power-off fa-2x'} onClick={Logout}>Logout</SideBarElement>
                     <SideBarElement typeImage={'fa fa-info-circle fa-2x'} >Info</SideBarElement>
                     </div>
 
@@ -78,7 +82,7 @@ export default function SideBar({task="", profile="", notes="", settings="", }){
                         </div>
 
                         <div className={styles.root_logInfo}>
-                            <SideBarElement typeImage={'fa fa-power-off fa-2x'} ></SideBarElement>
+                            <SideBarElement typeImage={'fa fa-power-off fa-2x'} onClick={Logout}></SideBarElement>
                             <SideBarElement typeImage={'fa fa-info-circle fa-2x'} ></SideBarElement>
                         </div>
 
