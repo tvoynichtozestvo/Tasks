@@ -8,6 +8,7 @@ const Test = lazy(() => import('../../pages/testSideBar/page.tsx'))
 const Tariffs = lazy(() => import('../../pages/Tariffs/page.tsx'))
 const Profile = lazy(()=>import('../../pages/Profile/page.tsx'))
 const Settings = lazy(()=>import('../../pages/Settings/page.tsx'))
+const Tasks = lazy(()=>import('../../pages/Tasks/page.tsx'))
 
 export const AppRouter = () => {
     return (
@@ -68,6 +69,15 @@ export const AppRouter = () => {
                     </Suspense>
                 }
             />
+            <Route
+                path='/tasks'
+                element={
+                    <Suspense>
+                        <Tasks/>
+                    </Suspense>
+                }
+            />
+
         </Routes>
     )
 }

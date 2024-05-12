@@ -1,0 +1,42 @@
+@use '/src/app/styles/variables';
+.root{
+
+  background: variables.$basic-500;
+  &__wrapper{
+    color: white;
+  }
+  &_addTask{
+    color: variables.$basic-100;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    i{
+      margin-right: 10px;
+    }
+  }
+  &_tasksContainer{
+    border: 1px rgba(255, 255, 255, 0.1) solid;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 60vw;
+    min-width: 560px;
+    height: 40vw;
+    min-height: 400px;
+    color: rgba(105, 100, 226, 0.3);
+    text-align: center;
+    align-content: center;
+    p{
+      font-size: 23px;
+      cursor: default;
+    }
+  }
+
+  &_addTaskModal{
+    position: absolute;
+    left: 25%;
+    top: 10%
+
+
+  }
+}

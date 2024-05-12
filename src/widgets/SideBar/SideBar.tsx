@@ -28,7 +28,7 @@ export default function SideBar({task="", profile="", notes="", settings="", }){
         navigate('/profile')
     }
     function navigateToTask(){
-        navigate('/task')
+        navigate('/tasks')
     }
     function navigateToNotes(){
         navigate('/notes')

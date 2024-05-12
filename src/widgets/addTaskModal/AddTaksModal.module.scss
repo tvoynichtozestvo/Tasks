@@ -1,0 +1,49 @@
+@use '/src/app/styles/variables';
+.root{
+  &__wrapper{
+    border: 1px rgba(255, 255, 255, 0.1) solid;
+    border-radius: 10px;
+    width: 46vw;
+    padding: 20px;
+
+  }
+&_titleCOntainer{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5px;
+  i{
+    font-size: 30px;
+    cursor: pointer;
+  }
+}
+  &_titelInput{
+    margin-bottom: 30px;
+
+  }
+  &_dateContainer{
+    margin-left: 5px;
+    color: rgba(255, 255, 255, 0.5);
+
+  }
+  &_addTaskMainContainer {
+    textarea {
+      padding: 20px;
+      font-size: 20px;
+      color: white;
+      background: variables.$basic-500;
+      text-align: start;
+      width: 43vw;
+      height: 500px;
+      resize: none;
+      border: 1px rgba(128, 128, 128, 0.41) solid;
+      border-radius: 20px;
+    }
+  }
+  &_addModalButtonsContainer{
+    display: flex;
+    justify-content: end;
+    button{
+      margin-right: 15px;
+    }
+  }
+}
