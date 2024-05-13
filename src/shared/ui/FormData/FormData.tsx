@@ -2,7 +2,7 @@ import { useState } from 'react'
 import styles from './FormData.module.scss'
 import { Props } from './types.ts'
 import {TextInput} from "../TextInput/TextInput.tsx";
-import {Button} from "../button/Button.tsx";
+
 
 export default function AuthForm(props: Props) {
     const [formData, setFormData] = useState({})
@@ -27,7 +27,6 @@ export default function AuthForm(props: Props) {
                          />
                 ))}
             </div>
-            <Button type={'primary'} borderType={'strong'} buttonSize={'large'}>{props.button}</Button>
         </form>
     )
 }

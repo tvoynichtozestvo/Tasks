@@ -1,7 +1,7 @@
 import AuthForm from "../../shared/ui/FormData/FormData.tsx";
 import styles from "./Form.module.scss";
 import ContainerToForm from "../../shared/ui/ConteinerToForm/Container.tsx";
-import {Link} from "react-router-dom";
+import {Button} from "../../shared/ui/button/Button.tsx";
 
 export default function FormRegister(){
     return(
@@ -17,6 +17,7 @@ export default function FormRegister(){
                     { id: 'password', placeholder: 'Confirm password', type: 'primary', inputSize: 'medium' }
                 ]}>
             </AuthForm>
+                <Button type={'primary'} borderType={'strong'} buttonSize={'large'}>Login</Button>
             </div>
 
 

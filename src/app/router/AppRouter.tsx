@@ -9,6 +9,7 @@ const Tariffs = lazy(() => import('../../pages/Tariffs/page.tsx'))
 const Profile = lazy(()=>import('../../pages/Profile/page.tsx'))
 const Settings = lazy(()=>import('../../pages/Settings/page.tsx'))
 const Tasks = lazy(()=>import('../../pages/Tasks/page.tsx'))
+const Notes = lazy(()=>import('../../pages/Notes/page.tsx'))
 
 export const AppRouter = () => {
     return (
@@ -74,6 +75,14 @@ export const AppRouter = () => {
                 element={
                     <Suspense>
                         <Tasks/>
+                    </Suspense>
+                }
+            />
+            <Route
+                path='/notes'
+                element={
+                    <Suspense>
+                        <Notes/>
                     </Suspense>
                 }
             />
