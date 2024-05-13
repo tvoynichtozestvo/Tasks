@@ -1,6 +1,7 @@
 @use '/src/app/styles/variables';
 .root{
   &__wrapper{
+    background: variables.$basic-500;
     border: 1px rgba(255, 255, 255, 0.1) solid;
     border-radius: 10px;
     width: 46vw;

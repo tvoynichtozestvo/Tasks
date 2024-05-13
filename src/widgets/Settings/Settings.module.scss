@@ -1,9 +1,17 @@
 @use '/src/app/styles/variables';
 .root{
   background: variables.$basic-500;
+
+
   &__wrapper{
     color: white;
     margin-top: 2vh;
+  }
+  &_borderUraa{
+    border: 1px rgba(255, 255, 255, 0.1) solid;
+    width: 50vw;
+    min-width: 700px;
+    border-radius: 10px;
   }
   &_navContaier{
     color:  white;
@@ -108,7 +116,7 @@
     height: 15vh;
     min-height: 140px;
     max-height: 170px;
-
+    border-radius: 10px;
     button{
       margin-right: 30px;
     }
@@ -137,7 +145,9 @@
 
   &_settingsButton{
     display: flex;
+    justify-content: end;
     margin-top: 30px;
+    margin-bottom: 30px;
     margin-left: 50px;
 
     button{
