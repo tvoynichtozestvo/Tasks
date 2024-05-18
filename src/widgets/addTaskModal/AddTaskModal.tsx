@@ -4,6 +4,8 @@ import {TextInput} from "../../shared/ui/TextInput/TextInput.tsx";
 import {useState} from "react";
 import {Button} from "../../shared/ui/button/Button.tsx";
 export default function AddTaskModal(){
+    //Ну как бы тут должен быть запрос на добавление API, который создаёт новую запись в БД
+    //И потом эти записи выводятся на странице Tasks
     const [title, setTitle] = useState('')
     function getDay(){
         const days = [
@@ -21,6 +23,8 @@ export default function AddTaskModal(){
     }
     function closeAddTaskModal(){
         const addTask = document.getElementById('addTaskModal')
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-expect-error
         addTask.style.display = 'none'
     }
     return(

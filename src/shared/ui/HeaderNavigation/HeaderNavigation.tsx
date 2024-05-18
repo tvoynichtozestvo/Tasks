@@ -1,5 +1,4 @@
 import styles from './HeaderNavigation.module.scss'
-import { Props } from './types.ts'
 import { Link} from "react-router-dom";
 import Container from "../Conteiner/Container.tsx";
 

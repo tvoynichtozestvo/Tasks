@@ -1,9 +1,9 @@
 @use '/src/app/styles/variables';
 .root{
-
   background: variables.$basic-500;
   &__wrapper{
     color: white;
+    margin-top: 2vh;
   }
   &_addTask{
     color: variables.$basic-100;
@@ -23,6 +23,24 @@
     min-width: 560px;
     height: 40vw;
     min-height: 400px;
+    p{
+      font-size: 23px;
+      cursor: default;
+    }
+  }
+  &_addTaskModal{
+    position: absolute;
+    left: 25%;
+    top: 10%
+  }
+  &_taskIfNull{
+    border: 1px rgba(255, 255, 255, 0.1) solid;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 60vw;
+    min-width: 560px;
+    height: 40vw;
+    min-height: 400px;
     color: rgba(105, 100, 226, 0.3);
     text-align: center;
     align-content: center;
@@ -30,13 +48,5 @@
       font-size: 23px;
       cursor: default;
     }
-  }
-
-  &_addTaskModal{
-    position: absolute;
-    left: 25%;
-    top: 10%
-
-
   }
 }

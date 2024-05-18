@@ -1,0 +1,49 @@
+@use '/src/app/styles/variables';
+
+.root{
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 24px;
+    color: white;
+    &:hover{
+      transition: 0.3s;
+      cursor: pointer;
+      background: rgba(129, 129, 131, 0.23);
+    }
+  }
+  &_radioContainer{
+    input[type='radio'] {
+      margin-top: 6px;
+      /* remove standard background appearance */
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      /* create custom radiobutton appearance */
+      width: 25px;
+      height: 25px;
+      /* background-color only for content */
+      background-clip: content-box;
+      border: none;
+      background-color: #e7e6e7;
+      border-radius: 50%;
+
+      &:checked{
+        transition: 0.3s;
+        background-color: variables.$basic-100;
+      }
+
+    }
+
+  }
+  &_taskValueContainer{
+    width: 85%;
+  }
+  &_taskDateContainer{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+}
