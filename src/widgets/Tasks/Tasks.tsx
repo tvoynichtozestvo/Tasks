@@ -3,6 +3,7 @@ import styles from './Tasks.module.scss'
 import catImage from '../../app/assets/image/cat.png'
 import AddTaskModal from "../addTaskModal/AddTaskModal.tsx";
 import TasksListElement from "../../shared/ui/TasksListElement/TasksListElement.tsx";
+import sortImage from '../../app/assets/image/SortAscendingOutlined.png'
 export default function Tasks(){
     function openAddTaskModal(){
         const addTask = document.getElementById('addTaskModal')
@@ -22,6 +23,7 @@ export default function Tasks(){
                 <div><h2>Tasks</h2></div>
                 <div className={styles.root_addTask} onClick={openAddTaskModal}><i className={'fa fa-wheelchair-alt'}></i>add Task</div>
                 <div className={styles.root_tasksContainer}>
+                    <div className={styles.root_sortHeader}><div>All</div><img src={sortImage} alt="" /></div>
                     <TasksListElement DataFields={tasks}/>
                 </div>
                 <div id={'addTaskModal'} style={{display: 'none'}} className={styles.root_addTaskModal}>

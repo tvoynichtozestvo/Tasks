@@ -7,6 +7,7 @@
   }
   &_addTask{
     color: variables.$basic-100;
+    width: 12%;
     font-size: 25px;
     cursor: pointer;
     margin-left: 10px;
@@ -21,8 +22,8 @@
     border-radius: 10px;
     width: 60vw;
     min-width: 560px;
-    height: 40vw;
-    min-height: 400px;
+    min-height: 800px;
+
     p{
       font-size: 23px;
       cursor: default;
@@ -47,6 +48,17 @@
     p{
       font-size: 23px;
       cursor: default;
+    }
+  }
+  &_sortHeader{
+    display: flex;
+    justify-content: end;
+    img{
+      width: 30px;
+      height: 30px;
+    }
+    :hover{
+      cursor: pointer;
     }
   }
 }
