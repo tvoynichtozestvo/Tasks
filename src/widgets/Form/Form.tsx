@@ -24,7 +24,7 @@ export default function Form(){
             </div>
 
             <div>
-            <Link to={'https://www.youtube.com/watch?v=wv969vgqwDw'}>Forgot password?</Link>
+            <Link to={'/'}>Forgot password?</Link>
             <Link to={'/register'}>register</Link>
             </div>
 

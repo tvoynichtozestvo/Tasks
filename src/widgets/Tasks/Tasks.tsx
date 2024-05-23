@@ -21,7 +21,7 @@ export default function Tasks(){
         return(
             <Container task={'active'} rootClassName={styles.root} className={styles.root__wrapper}>
                 <div><h2>Tasks</h2></div>
-                <div className={styles.root_addTask} onClick={openAddTaskModal}><i className={'fa fa-wheelchair-alt'}></i>add Task</div>
+                <div className={styles.root_addTask} onClick={openAddTaskModal}><i className={'fa fa-plus-circle'}></i>add Task</div>
                 <div className={styles.root_tasksContainer}>
                     <div className={styles.root_sortHeader}><div>All</div><img src={sortImage} alt="" /></div>
                     <TasksListElement DataFields={tasks}/>
@@ -36,7 +36,7 @@ export default function Tasks(){
         return (
             <Container task={'active'} rootClassName={styles.root} className={styles.root__wrapper}>
                 <div><h2>Tasks</h2></div>
-                <div className={styles.root_addTask} onClick={openAddTaskModal}><i className={'fa fa-wheelchair-alt'}></i>add Task</div>
+                <div className={styles.root_addTask} onClick={openAddTaskModal}><i className={'fa fa-plus-circle'}></i>add Task</div>
                 <div className={styles.root_taskIfNull}>
                     <p>tasks not found</p>
                     <img src={catImage} alt="cat"/>
