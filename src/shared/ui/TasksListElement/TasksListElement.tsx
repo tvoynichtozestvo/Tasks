@@ -11,7 +11,7 @@ export default function TasksListElement(props :Props) {
                     <input type={"radio"}/>
                 </div>
                 <div className={styles.root_taskValueContainer}>
-                    {data.value}
+                    {data.title}
                 </div>
                 <div className={styles.root_taskDateContainer}>
                     {data.date}
